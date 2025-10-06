@@ -20,7 +20,7 @@ body {
   align-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #eb6134;
+  background-color: black;
 }
 
 h1 {
@@ -30,25 +30,21 @@ h1 {
   text-align: center;
 }
 
-.title{
-  color: #1f2736;
-  font-size: 70px;
-}
-
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
+  color: cornflowerblue;
 }
 
 .card {
-  background-color: rgb(52, 159, 235);
+  background: linear-gradient(to top left, cornflowerblue, darkcyan);
   border-radius: 12px;
-  box-shadow: 0 4px 10px #3474eb;
+  box-shadow: 0 4px 15px #ff6600;
   padding: 1rem;
   width: 250px;
   height: 380px; 
@@ -60,8 +56,8 @@ h1 {
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-25px);
+  box-shadow: 0 8px 20px #ff6600;
 }
 
 .card img {
@@ -74,7 +70,6 @@ h1 {
   padding: 5px; 
   box-sizing: border-box;
 }
-
 
 .card h2 {
   font-size: 1.1em;
