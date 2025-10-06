@@ -1,7 +1,7 @@
 import './style.css'
 
 async function fetchCharacter(): Promise<any> {
-  const res = await fetch('https://dragonball-api.com/api/characters');
+  const res = await fetch('https://dragonball-api.com/api/characters?limit=60');
   if (!res.ok) {
     throw new Error('No se pudo cargar detalles');
   }
